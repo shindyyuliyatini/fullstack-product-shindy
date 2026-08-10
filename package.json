@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "Fullstack Product Manager",
   "scripts": {
-    "start": "cd backend && npm install && node server.js"
+    "start": "cd backend && node server.js"
   }
 }
