@@ -8,9 +8,6 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://shindy7yuliyatini_db_user:xadeTIaA9rH7dY0l@cluster0.zyovisy.mongodb.net/product_db')
-.then(() => console.log('MongoDB Connected'))
-.catch(err => console.log('MongoDB Error:', err));
 
 const ProductSchema = new mongoose.Schema({
     name: String,
