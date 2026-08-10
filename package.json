@@ -1,0 +1,8 @@
+{
+  "name": "fullstack-product-shindy",
+  "version": "1.0.0",
+  "description": "Fullstack Product Manager",
+  "scripts": {
+    "start": "cd backend && node server.js"
+  }
+}
