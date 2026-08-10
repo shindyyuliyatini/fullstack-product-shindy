@@ -51,7 +51,10 @@ app.delete('/api/products/:id', async (req, res) => {
     }
     res.json({ message: 'Produk dihapus' });
 });
-
+// Route root
+app.get('/', (req, res) => {
+    res.send('🚀 Backend Product Manager is running!');
+});
 app.listen(port, () => {
     console.log('Backend running on http://localhost:' + port);
 });
